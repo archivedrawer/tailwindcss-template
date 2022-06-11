@@ -93,5 +93,8 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "fontAwesomeAutocomplete.version": "4"
+  "fontAwesomeAutocomplete.version": "4",
+  "fontAwesomeAutocomplete.patterns": [
+    "**/*.html"
+  ],
 }
