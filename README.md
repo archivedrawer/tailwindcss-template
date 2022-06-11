@@ -49,7 +49,7 @@ Alternatively, you can use the pre-configured dev and prod tasks in the terminal
 
 ## References
 
-Shruti Balasa is an amazing creator who helped me with her tutorials on the install and setup of Tailwind CSS, check her channel, Thirus!
+Shruti Balasa is an amazing creator who helped me with her tutorials on the install and setup of Tailwind CSS and Alpine.js, check her channel out, [Thirus](https://www.youtube.com/c/Thirus)!
 
 - [Thirus, "Install Tailwind CSS v3 - CDN vs CLI vs PostCSS", by Shruti Balasa](https://youtu.be/h9Zun41-Ozc)
 - [Thirus, "Light & Dark Mode toggle using Tailwind CSS & Alpine JS, by Shruti Balasa"](https://youtu.be/NvoYr7eQ2Xo)
