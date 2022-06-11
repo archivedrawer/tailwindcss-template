@@ -1,7 +1,7 @@
 
 # Template
 
-A template based on _Tailwind CSS_ and _Alpine.js_, both a front-end CSS and JavaScript framework, respectively, featuring _Font Awesome_ and _The New CSS Reset_
+A template based on Tailwind CSS and Alpine.js, both a front-end CSS and JavaScript framework, respectively, and featuring Font Awesome and The New CSS Reset.
 
 ## Features
 
@@ -21,7 +21,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd template
 ```
 
 Install dependencies
@@ -45,7 +45,7 @@ Before pushing the code, finish the building process and run production
   npm run prod
 ```
 
-Alternatively, you can use the pre-configured dev and prod tasks in the terminal menu
+Alternatively, you can use the pre-configured dev and prod tasks in the "Terminal" menu
 
 ## References
 
@@ -54,7 +54,7 @@ Shruti Balasa is an amazing creator who helped me with her tutorials on the inst
 - [Thirus, "Install Tailwind CSS v3 - CDN vs CLI vs PostCSS", by Shruti Balasa](https://youtu.be/h9Zun41-Ozc)
 - [Thirus, "Light & Dark Mode toggle using Tailwind CSS & Alpine JS, by Shruti Balasa"](https://youtu.be/NvoYr7eQ2Xo)
 
-Also check the featuring tools
+Also check the featuring tools:
 
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Alpine.js](https://alpinejs.dev/)
