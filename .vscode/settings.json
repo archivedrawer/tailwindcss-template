@@ -92,5 +92,6 @@
   },
   "editor.quickSuggestions": {
     "strings": true
-  }
+  },
+  "fontAwesomeAutocomplete.version": "4"
 }
