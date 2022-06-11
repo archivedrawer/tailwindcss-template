@@ -85,4 +85,12 @@
   "oneDarkPro.markdownStyle": true,
   "oneDarkPro.editorTheme": "One Dark Pro Darker",
   "material-icon-theme.hidesExplorerArrows": false,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
