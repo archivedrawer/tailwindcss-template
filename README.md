@@ -7,7 +7,7 @@ A template based on Tailwind CSS and Alpine.js, both a front-end CSS and JavaScr
 
 - Tailwind CSS 3.1.2
 - Alpine.js 3.10.3
-- Font Awesome 4
+- Font Awesome 4.7
 - The New CSS Reset 1.6.1
 
 ## Run Locally
