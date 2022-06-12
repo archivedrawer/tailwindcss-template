@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  body {
-    @apply ;
-  }
-} */
+@layer components {
+  [x-cloak] { display: none !important; }
+  body { -webkit-backface-visibility: hidden; }
+  input, textarea, select { all: revert; }
+}

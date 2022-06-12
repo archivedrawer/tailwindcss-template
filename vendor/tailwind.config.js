@@ -3,8 +3,13 @@ module.exports = {
   content: [
     '../*.html'
   ],
+  darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'bg-color': 'background-color'
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/typography')

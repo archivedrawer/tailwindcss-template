@@ -5,17 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Document</title> -->
+  <!-- <title></title> -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <!-- <script src="assets/js/alpine.plugin.js" defer></script> -->
+  <!-- <script defer src="assets/js/alpine.plugin.js"></script> -->
   <script defer src="assets/js/alpine.min.js"></script>
 </head>
 
-<body>
-  <div class=""></div>
-
+<body class="antialiased" x-data="{'darkMode': false}"
+  x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))">
+  <div :class="{'dark': darkMode === true}">
+    <div class="min-h-screen dark:bg-black duration-200">
+      <input id="toggle" type="checkbox" :value="darkMode" @change="darkMode = !darkMode">
+      <label for="toggle" class="dark:text-white duration-200">Mode</label>
+    </div>
+  </div>
 </body>
 
 </html>

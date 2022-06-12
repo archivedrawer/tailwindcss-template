@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "adrianwilczynski.alpine-js-intellisense",
     "ms-vscode.atom-keybindings",
     "aaron-bond.better-comments",
     "kamikillerto.vscode-colorize",
