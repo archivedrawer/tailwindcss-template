@@ -36,7 +36,13 @@
         "notebookEditors": false
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.shellIntegration.decorationsEnabled": true,
+    "terminal.integrated.shellIntegration.decorationIcon": "circle-outline",
+    "terminal.integrated.shellIntegration.decorationIconSuccess": "primitive-dot",
+    "terminal.integrated.shellIntegration.decorationIconError": "error-small",
     "window.confirmBeforeClose": "always",
+    "window.commandCenter": false,
     "files.watcherExclude": {
         "node_modules/*": true,
         "**/.git/objects/**": true,
@@ -71,12 +77,14 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": false,
     "javascript.preferences.quoteStyle": "single",
     "typescript.preferences.quoteStyle": "single",
     "prettier.arrowParens": "avoid",
     "prettier.singleQuote": true,
     "git.autofetch": true,
     "git.timeline.showUncommitted": true,
+    "git.mergeEditor": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "atomKeymap.promptV3Features": true,
