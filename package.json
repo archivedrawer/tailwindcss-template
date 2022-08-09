@@ -1,11 +1,11 @@
 {
-  "name": "vendor",
+  "name": "template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i tailwind.css -o ../assets/css/style.css --watch",
-    "prod": "npx tailwindcss -i tailwind.css -o ../assets/css/style.css --minify"
+    "dev": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
+    "prod": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --minify"
   },
   "keywords": [],
   "author": "",

@@ -4,10 +4,10 @@
     {
       "type": "npm",
       "script": "dev",
-      "path": "vendor",
+      // "path": "vendor",
       "problemMatcher": [],
-      "label": "npm: dev - vendor",
-      "detail": "npx tailwindcss -i tailwind.css -o ../assets/css/style.css --watch",
+      "label": "npm: dev",
+      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -16,18 +16,18 @@
     {
       "type": "npm",
       "script": "prod",
-      "path": "vendor",
+      // "path": "vendor",
       "problemMatcher": [],
-      "label": "npm: prod - vendor",
-      "detail": "npx tailwindcss -i tailwind.css -o ../assets/css/style.css --minify"
+      "label": "npm: prod",
+      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --minify"
     },
     {
       "type": "npm",
       "script": "install",
-      "path": "vendor",
+      // "path": "vendor",
       "group": "clean",
       "problemMatcher": [],
-      "label": "npm: install - vendor",
+      "label": "npm: install",
       "detail": "install dependencies from package"
     }
   ]

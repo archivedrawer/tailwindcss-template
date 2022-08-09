@@ -27,21 +27,21 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  cd vendor
+  # cd vendor
   npm install
 ```
 
 Start the build process before coding
 
 ```bash
-  cd vendor
+  # cd vendor
   npm run dev
 ```
 
 Before pushing the code, finish the building process and run production
 
 ```bash
-  cd vendor
+  # cd vendor
   npm run prod
 ```
 
