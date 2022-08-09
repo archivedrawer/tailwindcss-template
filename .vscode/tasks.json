@@ -4,7 +4,6 @@
     {
       "type": "npm",
       "script": "dev",
-      // "path": "vendor",
       "problemMatcher": [],
       "label": "npm: dev",
       "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
@@ -16,7 +15,6 @@
     {
       "type": "npm",
       "script": "prod",
-      // "path": "vendor",
       "problemMatcher": [],
       "label": "npm: prod",
       "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --minify"
@@ -24,7 +22,6 @@
     {
       "type": "npm",
       "script": "install",
-      // "path": "vendor",
       "group": "clean",
       "problemMatcher": [],
       "label": "npm: install",
