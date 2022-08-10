@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title></title> -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./font-awesome.min.css" />
+    <!-- <script defer src="js/alpine.plugin.js"></script> -->
+    <script defer src="./js/alpine.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title></title> -->
-  <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./font-awesome.min.css">
-  <!-- <script defer src="js/alpine.plugin.js"></script> -->
-  <script defer src="./js/alpine.min.js"></script>
-</head>
-
-<body class="antialiased" x-data="{'darkMode': false}"
-  x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))">
-  <div :class="{'dark': darkMode === true}">
-    <div class="min-h-screen dark:bg-black duration-200">
-      <input id="toggle" type="checkbox" :value="darkMode" @change="darkMode = !darkMode">
-      <label for="toggle" class="dark:text-white duration-200">Mode</label>
+  <body
+    class="antialiased"
+    x-data="{'darkMode': false}"
+    x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+  >
+    <div :class="{'dark': darkMode === true}">
+      <div class="min-h-screen duration-200 dark:bg-black">
+        <input
+          id="toggle"
+          type="checkbox"
+          :value="darkMode"
+          @change="darkMode = !darkMode"
+        />
+        <label for="toggle" class="duration-200 dark:text-white">Mode</label>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
