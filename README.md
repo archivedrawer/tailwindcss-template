@@ -1,7 +1,7 @@
 
 # Template
 
-A template based on Tailwind CSS and Alpine.js, both a front-end CSS and JavaScript framework, respectively, and featuring Font Awesome and The New CSS Reset.
+A Tailwind CSS template, with Alpine.js, jQuery, Font Awesome and The New CSS Reset.
 
 ## Features
 
