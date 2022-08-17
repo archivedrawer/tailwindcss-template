@@ -12,18 +12,6 @@ A template based on Tailwind CSS and Alpine.js, both a front-end CSS and JavaScr
 
 ## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/pedromchd/template.git
-```
-
-Go to the project directory
-
-```bash
-  cd template
-```
-
 Install dependencies
 
 ```bash
@@ -57,3 +45,4 @@ Also check the featuring tools:
 - [Alpine.js](https://alpinejs.dev/)
 - [Font Awesome 4](https://fontawesome.com/v4/)
 - [The New CSS Reset](https://elad2412.github.io/the-new-css-reset/)
+- [jQuery](https://jquery.com/)
