@@ -31,8 +31,6 @@ Before pushing the code, finish the building process and run production
   npm run prod
 ```
 
-Alternatively, you can use the pre-configured dev and prod tasks in the "Terminal" menu
-
 ## References
 
 Shruti Balasa is an amazing creator who helped me with her tutorials on the install and setup of Tailwind CSS and Alpine.js, check her channel out, [Thirus](https://www.youtube.com/c/Thirus)!
