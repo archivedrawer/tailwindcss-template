@@ -6,7 +6,7 @@
       "script": "dev",
       "problemMatcher": [],
       "label": "npm: dev",
-      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
+      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -17,7 +17,7 @@
       "script": "prod",
       "problemMatcher": [],
       "label": "npm: prod",
-      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --minify"
+      "detail": "npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --minify"
     },
     {
       "type": "npm",
