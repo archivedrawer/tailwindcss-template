@@ -15,6 +15,7 @@
     "dbaeumer.vscode-eslint",
     "donjayamanne.git-extension-pack",
     "donjayamanne.githistory",
+    // "donjayamanne.jquerysnippets",
     // "dsznajder.es7-react-js-snippets",
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
@@ -38,7 +39,7 @@
     "PKief.material-icon-theme",
     "pranaygp.vscode-css-peek",
     "ritwickdey.LiveServer",
-    //"ronnidc.nunjucks",
+    // "ronnidc.nunjucks",
     // "WallabyJs.quokka-vscode",
     "wayou.vscode-todo-highlight",
     "xabikos.JavaScriptSnippets",
@@ -46,6 +47,6 @@
     "yzhang.markdown-all-in-one",
     "zhuangtongfa.material-theme",
     "Zignd.html-css-class-completion",
-    "ziyasal.vscode-open-in-github"
+    "ziyasal.vscode-open-in-github",
   ],
 }
