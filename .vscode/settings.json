@@ -24,6 +24,11 @@
   "editor.smoothScrolling": true,
   "editor.renderLineHighlight": "line",
   "editor.cursorStyle": "block-outline",
+  "editor.experimental.stickyScroll.enabled": true,
+  "editor.stickyTabStops": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "workbench.editor.showTabs": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.localHistory.enabled": true,
@@ -35,14 +40,14 @@
     "untitledEditors": true,
     "notebookEditors": false
   },
+  "window.confirmBeforeClose": "always",
+  "window.commandCenter": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.shellIntegration.enabled": true,
   // "terminal.integrated.shellIntegration.decorationsEnabled": true,
   "terminal.integrated.shellIntegration.decorationIcon": "circle-outline",
   "terminal.integrated.shellIntegration.decorationIconSuccess": "primitive-dot",
   "terminal.integrated.shellIntegration.decorationIconError": "error-small",
-  "window.confirmBeforeClose": "always",
-  "window.commandCenter": false,
   "files.watcherExclude": {
     "node_modules/*": true,
     "**/.git/objects/**": true,
@@ -100,9 +105,6 @@
     "html": "html",
     "javascript": "javascript",
     "css": "css"
-  },
-  "editor.quickSuggestions": {
-    "strings": true
   },
   "fontAwesomeAutocomplete.version": "4",
   "fontAwesomeAutocomplete.patterns": [
