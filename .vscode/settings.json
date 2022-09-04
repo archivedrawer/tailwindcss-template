@@ -24,7 +24,7 @@
   "editor.smoothScrolling": true,
   "editor.renderLineHighlight": "line",
   "editor.cursorStyle": "block-outline",
-  "editor.experimental.stickyScroll.enabled": true,
+  "editor.stickyScroll.enabled": true,
   "editor.stickyTabStops": true,
   "editor.quickSuggestions": {
     "strings": true
@@ -45,7 +45,8 @@
   "window.zoomLevel": 0,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.shellIntegration.enabled": true,
-  "terminal.integrated.shellIntegration.decorationsEnabled": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "both",
   "terminal.integrated.shellIntegration.decorationIcon": "circle-outline",
   "terminal.integrated.shellIntegration.decorationIconSuccess": "primitive-dot",
   "terminal.integrated.shellIntegration.decorationIconError": "error-small",
