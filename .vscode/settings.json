@@ -119,4 +119,5 @@
     "push:command"
   ],
   "diffEditor.ignoreTrimWhitespace": false,
+  "githubPullRequests.pullBranch": "never",
 }
