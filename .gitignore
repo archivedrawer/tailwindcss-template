@@ -64,3 +64,9 @@ typings/
 .cache/
 dev/
 dist/
+
+# Eleventy build folder
+_site/
+
+# Local Netlify folder
+.netlify
